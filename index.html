@@ -45,7 +45,6 @@
       opacity: 0.6;
     }
 
-    /* ─── NAV ─── */
     nav {
       position: fixed;
       top: 0; right: 0; left: 0;
@@ -95,7 +94,6 @@
     .nav-links a:hover { color: var(--green); }
     .nav-links a:hover::after { width: 100%; }
 
-    /* ─── HERO ─── */
     .hero {
       min-height: 100vh;
       display: flex;
@@ -175,7 +173,6 @@
       to   { opacity: 1; transform: translateY(0); }
     }
 
-    /* ─── SECTIONS ─── */
     .section-wrap { position: relative; z-index: 1; }
 
     section {
@@ -215,7 +212,6 @@
       border-radius: 2px;
     }
 
-    /* ─── ABOUT ─── */
     .about-wrap { background: var(--white); }
 
     #about {
@@ -251,7 +247,6 @@
     .about-card h4 { font-size: 0.9rem; font-weight: 700; color: var(--ink); margin-bottom: 0.3rem; }
     .about-card p { font-size: 0.8rem; color: var(--ink-light); line-height: 1.6; }
 
-    /* ─── SERVICES ─── */
     .services-wrap { background: var(--off-white); }
 
     .services-grid {
@@ -285,7 +280,6 @@
     .service-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.6rem; color: var(--ink); }
     .service-card p { font-size: 0.85rem; color: var(--ink-light); line-height: 1.7; }
 
-    /* ─── PROJECTS ─── */
     .projects-wrap { background: var(--white); }
 
     .projects-grid {
@@ -314,7 +308,6 @@
 
     .project-card-body span { font-size: 0.95rem; font-weight: 600; color: var(--ink); }
 
-    /* ─── CLIENTS ─── */
     .clients-wrap { background: var(--off-white); }
 
     .clients-grid {
@@ -338,7 +331,6 @@
 
     .client-tag:hover { color: var(--green); border-color: rgba(61,122,94,0.35); background: var(--green-pale); }
 
-    /* ─── CONTACT ─── */
     .contact-wrap { background: var(--white); }
     #contact { text-align: center; }
 
@@ -375,7 +367,6 @@
     .contact-item a { color: var(--ink); text-decoration: none; transition: color 0.2s; }
     .contact-item a:hover { color: var(--green); }
 
-    /* ─── FOOTER ─── */
     footer {
       border-top: 1px solid rgba(61,122,94,0.1);
       text-align: center;
@@ -399,9 +390,8 @@
 </head>
 <body>
 
-  <!-- NAV -->
   <nav>
-    <img class="nav-logo" src="logo-gold.png" alt="ג.י.ל.בון פיתוח בע&quot;מ" />
+    <img class="nav-logo" src="logo-gold.png" alt="ג.י.ל.בון פיתוח בע"מ" />
     <ul class="nav-links">
       <li><a href="#about">אודות</a></li>
       <li><a href="#services">שירותים</a></li>
@@ -411,7 +401,6 @@
     </ul>
   </nav>
 
-  <!-- HERO -->
   <div class="hero">
     <div class="hero-inner">
       <div class="hero-tag">קבלן עבודות פיתוח ותשתיות</div>
@@ -421,7 +410,6 @@
     </div>
   </div>
 
-  <!-- ABOUT -->
   <div class="section-wrap about-wrap">
     <section id="about">
       <div>
@@ -429,9 +417,9 @@
         <h2 class="section-title">ניסיון, מקצועיות ואמינות</h2>
         <div class="divider"></div>
         <p class="section-text">
-          ג.י.ל.בון פיתוח בע"מ היא חברה מובילה בתחום עבודות הפיתוח, התשתיות והגינון המוניציפלי, הפועלת בפריסה רחבה מול קבלנים ויזמים מהמובילים בארץ.
+          ג.י.ל.בון פיתוח בע"מ היא חברה מובילה בתחום עבודות הפיתוח, התשתיות והגינון המוניציפלי, הפועלת בפריסה רחבה ברחבי ישראל.
           <br /><br />
-          החברה מחזיקה בצי רכבים, כלי צמ"ה וציוד טכנולוגי מתקדם, ומעסיקה עשרות אנשי מקצוע — מהנדסים, מנהלי עבודה ומפעילים מוסמכים — הפועלים בתיאום מוקפד ובלוחות זמנים מדויקים.
+          החברה מחזיקה בצי רכבים, כלי צמ"ה וציוד טכנולוגי מתקדם, ומעסיקה עשרות אנשי מקצוע — מהנדסים, מנהלי עבודה, קבלני משנה וצוותי ביצוע מיומנים.
         </p>
       </div>
       <div class="about-cards">
@@ -459,7 +447,6 @@
     </section>
   </div>
 
-  <!-- SERVICES -->
   <div class="section-wrap services-wrap">
     <section id="services">
       <div class="section-label">מה אנחנו עושים</div>
@@ -494,7 +481,6 @@
     </section>
   </div>
 
-  <!-- PROJECTS -->
   <div class="section-wrap projects-wrap">
     <section id="projects">
       <div class="section-label">הניסיון שלנו</div>
@@ -530,18 +516,29 @@
           <div class="project-card-body"><span>הוד השרון כיכר המושבה</span></div>
         </div>
         <div class="project-card">
-          <img class="project-card-img" src="gav-yam.jpg" alt="גב ים" />
-          <div class="project-card-body"><span>גב ים - מת"מ חיפה</span></div>
-        </div>
-        <div class="project-card">
           <img class="project-card-img" src="kimiya-rehovot.jpg" alt="בניין כימיה רחובות" />
           <div class="project-card-body"><span>בניין כימיה רחובות</span></div>
+        </div>
+        <div class="project-card">
+          <img class="project-card-img" src="asuta-vilag.png" alt="אסותא וילג' תל אביב" />
+          <div class="project-card-body"><span>אסותא וילג' תל אביב</span></div>
+        </div>
+        <div class="project-card">
+          <img class="project-card-img" src="intel kiryat yam.png" alt="אינטל קרית גת" />
+          <div class="project-card-body"><span>אינטל קרית גת</span></div>
+        </div>
+        <div class="project-card">
+          <img class="project-card-img" src="kiryat-memshala.png" alt="קרית הממשלה בנתניה" />
+          <div class="project-card-body"><span>קרית הממשלה בנתניה</span></div>
+        </div>
+        <div class="project-card">
+          <img class="project-card-img" src="meonot-rehovot.png" alt="מעונות סטודנטים רחובות" />
+          <div class="project-card-body"><span>מעונות סטודנטים רחובות</span></div>
         </div>
       </div>
     </section>
   </div>
 
-  <!-- CLIENTS -->
   <div class="section-wrap clients-wrap">
     <section id="clients">
       <div class="section-label">שותפים אסטרטגיים</div>
@@ -563,7 +560,6 @@
     </section>
   </div>
 
-  <!-- CONTACT -->
   <div class="section-wrap contact-wrap">
     <section id="contact">
       <div class="section-label">נשמח לשמוע</div>
@@ -588,7 +584,6 @@
     </section>
   </div>
 
-  <!-- FOOTER -->
   <footer>
     © 2025 ג.י.ל.בון פיתוח בע"מ — כל הזכויות שמורות
   </footer>
